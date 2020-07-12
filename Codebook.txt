@@ -1,0 +1,17 @@
+The variables used as part of this code are:
+
+1. fileURL: The URL link to the .zip file. This is the only varaibale whose value is hard-coded in the file
+
+2. features, activities, subject_test,x_test,y_test,subject_train,x_train,y_train: These variables store the values of specific columns from the UCI HAR dataset. For eg. features stores the value of the columns "n" and "functions"
+
+3. X: Group X train (x_train) and test (x_test) data set merged by rows
+
+4. Y: Group Y train (y_train) and test (y_test) data set merged by rows
+
+5. Subject: The data on train(subject_train) and test(subject_test) subjects merged by rows.
+
+6. Merged_Data: X,Y and Subject merged by column
+
+7. TidyData: A subset of the merged data set that only contains the columns subject, code and any other columns containing mean and std
+
+8. FinalData: A table containing the mean and standard deviation by activity type (extracted from the TidyData variable)   
